@@ -112,7 +112,7 @@ h1{
  
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
-    width: 40%;
+    /* width: 40%; */
     height: 70vh;
     border-radius: 20px;
     margin-left: 20px;
@@ -141,6 +141,24 @@ h1{
     padding-left: 25px;
     padding-top: 10px;
     padding-right: 25px;
+}
+
+
+/* last section */
+
+.last-section{
+    display: flex;
+    margin: 100px 200px;
+    width: 75%;
+    height: 20vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+
+.last-part{
+    width: 33%;
+    padding: 20px 120px;
+    vertical-align: middle;
 }
 
 
