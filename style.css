@@ -30,7 +30,9 @@ color: rgb(107, 102, 102);
 
 
 p{
-    margin-bottom: 60px;
+    font-size: 20px;
+    color: rgb(138, 136, 136);
+    margin-bottom: 80px;
 }
 
 .btn{
