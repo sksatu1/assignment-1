@@ -11,9 +11,9 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px 10px;
     overflow: hidden;
-    background-image: linear-gradient(rgb(34 58 7 / 69%),rgb(12 199 69));
+    background-image: linear-gradient(orange,#d75b13);
   }
   
   li {
@@ -33,10 +33,13 @@ ul {
 /* WELCOME SECTION START*/
 marquee{
     width:100%;
-    direction: right;
     height: 100px;
-    color: rgb(134 24 255);
+    color: orange;
     font-size: 50px;
+}
+
+.red{
+    color: red;
 }
 
 /* WELCOME SECTION END */
@@ -202,6 +205,28 @@ p{
     padding: 20px 120px;
     vertical-align: middle;
 }
+
+
+/* menu bar */
+.menu-bar{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    margin-bottom: 20px;
+    background-color: rgb(100, 97, 97);
+}
+.menu-items{
+    text-align: center;
+    padding-bottom: 30px;
+}
+label{
+    margin-right: 10px;
+    color: orange;
+}
+button{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
 
 
 /* footer section */
