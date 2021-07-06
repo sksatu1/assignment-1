@@ -13,8 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image:linear-gradient(rgb(248, 91, 117),rgb(59, 238, 193));
-    border: radius 5px;
+    background-image: linear-gradient(rgb(34 58 7 / 69%),rgb(12 199 69));
   }
   
   li {
@@ -30,6 +29,19 @@ ul {
   }
 
 /* nav bar end */
+
+/* WELCOME SECTION START*/
+marquee{
+    width:100%;
+    direction: right;
+    height: 100px;
+    color: rgb(134 24 255);
+    font-size: 50px;
+}
+
+/* WELCOME SECTION END */
+
+
 
 /* header section start */
 
