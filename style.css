@@ -1,6 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
-    text-align: justify;
+    /* text-align: justify; */
     box-sizing: border-box;
     margin: 0;
 
@@ -161,4 +161,24 @@ h1{
     vertical-align: middle;
 }
 
+
+/* footer section */
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+}
+/* footer h1{
+    font-size: 30px;
+}
+footer p{
+    color: whitesmoke;
+    font-weight: 100;
+} */
+.footer-section{
+    text-align: center;
+}
+.footer-section p{
+    color: whitesmoke;
+}
 
