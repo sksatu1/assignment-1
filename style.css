@@ -1,0 +1,146 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+/* header section start */
+
+.header-section{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 70px;
+}
+  
+       /* left-header */
+
+.orange{
+    color: orange;
+}
+
+.top-header-heading{
+font-size: 70px;
+color: rgb(107, 102, 102);
+}
+
+
+p{
+    margin-bottom: 60px;
+}
+
+.btn{
+    color: whitesmoke;
+    background-image: linear-gradient(rgb(224, 33, 33),orange);
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 40px;
+}
+
+/* header section finished */
+
+
+
+/* About me section starts */
+
+.about-me{
+    display: flex;
+    margin-top: 200px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-left-item{
+    width: 50%;
+    padding-left: 200px;
+
+}
+
+.about-right-item{
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 200px;
+    margin-top: 200px;
+
+}
+
+.about-image{
+    width: 400px;
+    height: 600px;
+
+}
+
+
+h1{
+    font-size: 40px;
+    color: rgb(107, 102, 102);
+}
+
+
+/* about section finished */
+
+
+/* recipie section starts */
+
+.my-recipies{
+    margin-top: 50px;
+}
+
+.recipie-heading{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.recipie-heading h1{
+    text-align: center;
+}
+
+.recipie-heading p{
+    text-align: center;
+}
+
+.recipie-cards{
+    margin-left: 12%;
+    margin-right: 10%;
+    display: flex;
+}
+ 
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    width: 40%;
+    height: 70vh;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card .image{
+    height: 50%;
+    padding-top: 20px;
+ 
+}
+.card .image img{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/* margin-top: auto;
+    margin-bottom: auto;  */
+}
+
+
+.card .recipie-text{
+    height: 50%;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+
